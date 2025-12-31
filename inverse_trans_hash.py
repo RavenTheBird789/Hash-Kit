@@ -5,8 +5,8 @@ import string
 
 target_hash = input("Enter the hash to reverse: ")
 
-# Use lowercase letters and digits for brute force (to keep it manageable)
-chars = string.ascii_lowercase + string.digits
+# Use letters and digits for brute force
+chars = string.ascii_lowercase + string.ascii_uppercase + string.digits 
 
 found = False
 
