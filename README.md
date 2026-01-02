@@ -5,6 +5,6 @@ Two of of these files ("trans_hash.py" and "inverse_trans_hash.py" respectively)
 
 Prior to installation, ensure you have python installed in your terminal and it's up to date.
 
-To install, simply run "git clone https://github.com/RavenTheBird789/Hash-Kit"
+To install, simply run "git clone https://github.com/RavenTheBird789/Hash-Kit" in your Linux terminals command line
 
-To run, simply type either "python3 trans_hash.py", "python3 inverse_trans_hash.py", or "python3 veri_hash.py"
+To run, simply type enter "python3 htk_main.py" in your Linux terminals command line
