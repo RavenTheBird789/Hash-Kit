@@ -28,8 +28,9 @@ def user_prompt():
         display_menu()
     else:
         os.system('clear')
-        print(blue("Thank you for using my Hast-Tool-Kit! Goodbye!"))
-        os.close(fd=0)
+        print(red("Invalid input, returning to main menu..."));
+        time.sleep(3);
+        display_menu();
 
 def display_menu():
     print(bold(blue("Hash-Tool-Kit UI")))
