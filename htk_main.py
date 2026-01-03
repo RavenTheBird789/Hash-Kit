@@ -1,4 +1,4 @@
-# Hast-Tool-Kit UI
+# Hash-Tool-Kit UI
 
 import trans_hash 
 import inverse_trans_hash 
