@@ -30,6 +30,7 @@ def user_prompt():
         os.system('clear')
         print(red("Invalid input, returning to main menu..."));
         time.sleep(3);
+        os.system('clear')
         display_menu();
 
 def display_menu():
