@@ -64,7 +64,7 @@ def display_menu():
         os.close(fd=0);
     else:
         os.system('clear');
-        print(red("Invalid Input, please try again");
+        print(red("Invalid Input, please try again"));
         time.sleep(3)
         os.system('clear');
         display_menu();
