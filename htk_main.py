@@ -32,7 +32,7 @@ def user_prompt():
         os.close(fd=0)
 
 def display_menu():
-    print(bold(blue("Hast-Tool-Kit UI")))
+    print(bold(blue("Hash-Tool-Kit UI")))
     print(blue("=================="))
     print(bold(red("By: RavenTheBird789")))
     print(blue("=================="))
@@ -58,6 +58,8 @@ def display_menu():
         os.system('clear');
     elif choice == '4':
         os.system('clear');
-        print(blue("Thank you for using my Hast-Tool-Kit! Goodbye!"));
+        print(blue("Thank you for using my Hash-Tool-Kit! Goodbye!"));
+        time.sleep(5)
+        os.system('clear');
         os.close(fd=0);
 display_menu();
