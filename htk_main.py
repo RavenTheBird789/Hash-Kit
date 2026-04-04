@@ -17,15 +17,15 @@ def bold(text: str) -> str:
 
 def user_prompt():
     prompt = input(blue("Would you like to return to the main menu? (yes/no): "))
-    if prompt.lower() in ['yes', 'y']:
+    if prompt == "yes":
         os.system('clear')
         display_menu()
-    elif prompt.upper() in ['YES', 'Y']:
+    elif prompt == "no":
         os.system('clear')
-        display_menu()
-    elif prompt == 'Yes':
+        print(blue("Okay then! thanks for using my Hash-Tool-Kit! Goodbye!"))
+        time.sleep(3)
         os.system('clear')
-        display_menu()
+        return;
     else:
         os.system('clear')
         print(red("Invalid input, returning to main menu..."));
