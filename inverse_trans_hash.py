@@ -1,4 +1,4 @@
-# InverseTransHash: A simple brute-force tool to reverse SHA-256 hashes for short alphanumeric strings.
+# InverseTransHash: A simple brute-force tool to crack SHA-256 hashes for short alphanumeric strings.
 import hashlib
 import itertools
 import string
