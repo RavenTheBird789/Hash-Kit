@@ -15,6 +15,8 @@ def red(text: str) -> str:
 def bold(text: str) -> str:
     return f"\033[1m{text}\033[0m"
 
+emptySpace = " "
+
 def user_prompt():
     prompt = input(blue("Would you like to return to the main menu? (yes/no): "))
     if prompt == "yes":
@@ -34,10 +36,10 @@ def user_prompt():
         display_menu();
 
 def display_menu():
-    print(bold(blue("Hash-Tool-Kit UI")))
-    print(blue("=================="))
+    print(bold(blue((emptySpace * 3) + "Hash-Tool-Kit" + emptySpace)))
+    print(blue("==================="))
     print(bold(red("By: RavenTheBird789")))
-    print(blue("=================="))
+    print(blue("==================="))
     print(blue("1. Hash a string"))
     print(blue("2. Crack a hash"))
     print(blue("3. Verify a hash"))
