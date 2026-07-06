@@ -16,7 +16,7 @@ def ith():
 
     found = False
     # Try lengths from 1 to 4 (adjust as needed for longer searches)
-    for length in range(1, 8):
+    for length in range(1, 4):
         print(f"Checking length {length}...")
         for combo in itertools.product(chars, repeat=length):
             s = ''.join(combo)
