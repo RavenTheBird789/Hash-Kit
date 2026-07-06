@@ -22,7 +22,7 @@ def user_prompt():
         display_menu()
     elif prompt == "no":
         os.system('clear')
-        print(blue("Okay then! thanks for using my Hash-Tool-Kit! Goodbye!"))
+        print(blue("Okay then! thanks for using my Hash Kit! Goodbye!"))
         time.sleep(3)
         os.system('clear')
         return;
@@ -39,7 +39,7 @@ def display_menu():
     print(bold(red("By: RavenTheBird789")))
     print(blue("=================="))
     print(blue("1. Hash a string"))
-    print(blue("2. Inverse hash a string"))
+    print(blue("2. Crack a hash"))
     print(blue("3. Verify a hash"))
     print(blue("4. Exit"))
     choice = input(blue("Select an option (1-4): "))
@@ -60,7 +60,7 @@ def display_menu():
         os.system('clear');
     elif choice == '4':
         os.system('clear');
-        print(blue("Thank you for using my Hash-Tool-Kit! Goodbye!"));
+        print(blue("Thank you for using my Hash Kit! Goodbye!"));
         time.sleep(5)
         os.system('clear');
         os.close(fd=0);

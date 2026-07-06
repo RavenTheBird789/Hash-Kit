@@ -4,24 +4,24 @@ import time
 import os
 
 def th():
-    user_input = input("What is your password?: ")  # Input from user
+    user_input = input("What is the string you'd like to hash?: ")  # Input from user
     hash =  ""
     if user_input:
         hash = hashlib.sha256(user_input.encode()).hexdigest()  # Generate SHA-256 hash that corresponds to the input
         time.sleep(3)
         os.system("clear")
-        print("Hashing your password... Please wait")
+        print("Hashing your string... Please wait")
         time.sleep(1)
         os.system("clear")
-        print("Hashing your password... Please wait.")
+        print("Hashing your string... Please wait.")
         time.sleep(1)
         os.system("clear")
-        print("Hashing your password... Please wait..")
+        print("Hashing your string... Please wait..")
         time.sleep(1)
         os.system("clear")
-        print("Hashing your password... Please wait...")
+        print("Hashing your string... Please wait...")
         time.sleep(1)
         os.system("clear")
 
-        print(f"Your password has been hashed as {hash}") # Output the resulting hash
+        print(f"Your string has been hashed as {hash}") # Output the resulting hash
     

@@ -10,13 +10,13 @@ def green(text: str) -> str:
     return f"\033[92m{text}\033[0m"
 
 def ith():
-    target_hash = input("Enter the hash to reverse: ")
+    target_hash = input("Enter the hash to crack: ")
     # Use letters and digits for brute force
     chars = string.ascii_lowercase + string.ascii_uppercase + string.digits 
 
     found = False
     # Try lengths from 1 to 4 (adjust as needed for longer searches)
-    for length in range(1, 4):
+    for length in range(1, 8):
         print(f"Checking length {length}...")
         for combo in itertools.product(chars, repeat=length):
             s = ''.join(combo)
@@ -28,4 +28,4 @@ def ith():
             break
 
     if not found:
-        print(red("Original string not found in the searched space (short alphanumeric strings).")) # Output if not found
+        print(red("[!] Error: Unable to crack hash")) # Output if not found
