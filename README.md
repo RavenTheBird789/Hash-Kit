@@ -9,7 +9,7 @@ Requirements
 
 Installation
 
-* To install, simply type "git clone https://github.com/RavenTheBird789/Hash-Kit" in your Linux terminals command line
+* To install, simply type "git clone https://github.com/RavenTheBird789/Hash-Kit" in your terminals command line
 
 Execution
 
