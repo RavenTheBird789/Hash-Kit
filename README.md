@@ -3,8 +3,14 @@ Compilation of python files that make up a small toolkit that can be used to has
 
 Two of of these files ("trans_hash.py" and "inverse_trans_hash.py" respectively) use the "hashlib" module in order to hash and crack SHA-256 hashes
 
-Prior to installation, ensure you have python installed in your terminal and it's up to date.
+Requirements
 
-To install, simply type "git clone https://github.com/RavenTheBird789/Hash-Kit" in your Linux terminals command line
+* Prior to installation, ensure you have python installed in your terminal and it's up to date.
 
-To run, simply type "python3 htk_main.py" in your Linux terminals command line
+Installation
+
+* To install, simply type "git clone https://github.com/RavenTheBird789/Hash-Kit" in your Linux terminals command line
+
+Execution
+
+* To run, simply type "python3 htk_main.py" in your Linux terminals command line
